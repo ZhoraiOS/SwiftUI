@@ -63,6 +63,7 @@
 			children = (
 				96AC06A828CA56650060A284 /* 1 - StackViews */,
 				96AC06B128CA598E0060A284 /* 2 - Text  */,
+				96AC06BD28CA631E0060A284 /* 3 - Images */,
 				96AC069A28CA56120060A284 /* SwiftUI_ProjectsApp.swift */,
 				96AC069C28CA56120060A284 /* ContentView.swift */,
 				96AC069E28CA56120060A284 /* Assets.xcassets */,
@@ -97,6 +98,13 @@
 				96AC06B228CA59A80060A284 /* Text_Example.swift */,
 			);
 			path = "2 - Text ";
+			sourceTree = "<group>";
+		};
+		96AC06BD28CA631E0060A284 /* 3 - Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3 - Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
