@@ -14,6 +14,7 @@
 		96AC06AC28CA56BD0060A284 /* VStack_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AC06AB28CA56BD0060A284 /* VStack_Example.swift */; };
 		96AC06AE28CA56F40060A284 /* HStack_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AC06AD28CA56F40060A284 /* HStack_Example.swift */; };
 		96AC06B028CA574F0060A284 /* ZStack_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AC06AF28CA574F0060A284 /* ZStack_Example.swift */; };
+		96AC06B328CA59A80060A284 /* Text_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AC06B228CA59A80060A284 /* Text_Example.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,9 @@
 		96AC06AB28CA56BD0060A284 /* VStack_Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack_Example.swift; sourceTree = "<group>"; };
 		96AC06AD28CA56F40060A284 /* HStack_Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack_Example.swift; sourceTree = "<group>"; };
 		96AC06AF28CA574F0060A284 /* ZStack_Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Example.swift; sourceTree = "<group>"; };
+		96AC06B228CA59A80060A284 /* Text_Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Example.swift; sourceTree = "<group>"; };
+		96AC06BB28CA5FBC0060A284 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		96AC06BC28CA60DD0060A284 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				96AC06A828CA56650060A284 /* 1 - StackViews */,
+				96AC06B128CA598E0060A284 /* 2 - Text  */,
 				96AC069A28CA56120060A284 /* SwiftUI_ProjectsApp.swift */,
 				96AC069C28CA56120060A284 /* ContentView.swift */,
 				96AC069E28CA56120060A284 /* Assets.xcassets */,
@@ -77,11 +82,21 @@
 		96AC06A828CA56650060A284 /* 1 - StackViews */ = {
 			isa = PBXGroup;
 			children = (
+				96AC06BB28CA5FBC0060A284 /* README.md */,
 				96AC06AB28CA56BD0060A284 /* VStack_Example.swift */,
 				96AC06AD28CA56F40060A284 /* HStack_Example.swift */,
 				96AC06AF28CA574F0060A284 /* ZStack_Example.swift */,
 			);
 			path = "1 - StackViews";
+			sourceTree = "<group>";
+		};
+		96AC06B128CA598E0060A284 /* 2 - Text  */ = {
+			isa = PBXGroup;
+			children = (
+				96AC06BC28CA60DD0060A284 /* README.md */,
+				96AC06B228CA59A80060A284 /* Text_Example.swift */,
+			);
+			path = "2 - Text ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +174,7 @@
 				96AC069D28CA56120060A284 /* ContentView.swift in Sources */,
 				96AC069B28CA56120060A284 /* SwiftUI_ProjectsApp.swift in Sources */,
 				96AC06B028CA574F0060A284 /* ZStack_Example.swift in Sources */,
+				96AC06B328CA59A80060A284 /* Text_Example.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
